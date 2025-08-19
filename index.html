@@ -4,20 +4,42 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Revisão geral e tags novas</title>
+
+<style>
+   *{
+      scroll-behavior: smooth;
+   }
+</style>
+
   <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-  <h1>Atlestimo</h1>
 
-  <p>Atletismo é um conjunto de esportes constituído por varias modalidades: corrida, marcha, lançamentos e saltos. De modo geral, o atletismo é praticado em estádios, com exceção de algumas corridas de longa distância, praticadas em vias públicas ou no campo, como a maratona.
-   </p>
-   <p>O atletismo é a forma organizada mais antiga de competição. As primeiras reuniões organizadas da história foram os Jogos Olímpicos, que os gregos iniciaram no ano 776 a.C. Durante anos, o principal evento olímpico foi o pentatlo, que compreendia lançamentos de disco, salto em comprimento e corrida de obstáculos.
-   </p>
-   <p>Os romanos continuaram celebrando as provas olímpicas depois de conquistar a Grécia no ano 146 a.C. No ano 394 d.C. o imperador romano Teodósio aboliu os jogos. Durante oito séculos não se celebraram competições organizadas de atletismo. Restauram-se na Inglaterra em meados do século XIX, e então as provas atléticas converteram-se gradualmente no esporte favorito dos ingleses.
-   </p>
+<header>
+  <h1 id="inicio">Atlestimo</h1>
+  <div><p>Atletismo é um conjunto de esportes constituído por varias modalidades: corrida, marcha, lançamentos e saltos. De modo geral, o atletismo é praticado em estádios, com exceção de algumas corridas de longa distância, praticadas em vias públicas ou no campo, como a maratona. </p>
+   <p>O atletismo é a forma organizada mais antiga de competição. As primeiras reuniões organizadas da história foram os Jogos Olímpicos, que os gregos iniciaram no ano 776 a.C. Durante anos, o principal evento olímpico foi o pentatlo, que compreendia lançamentos de disco, salto em comprimento e corrida de obstáculos.</p>
+   <p>Os romanos continuaram celebrando as provas olímpicas depois de conquistar a Grécia no ano 146 a.C. No ano 394 d.C. o imperador romano Teodósio aboliu os jogos. Durante oito séculos não se celebraram competições organizadas de atletismo. Restauram-se na Inglaterra em meados do século XIX, e então as provas atléticas converteram-se gradualmente no esporte favorito dos ingleses. </p>
+</div><div>
+          <h3>Âncoras para páginas internas</h3>
+          <nav>
+            <ul>
+               <li>
+                  <a href="./page/produtos.html">Ver produtos</a><br>
+               </li>
+               <li> <a href="./page/Detalhes.html">Ver detalhes</a></li>
+            </ul>
+          </nav>
+</div>
+</header>
 
-<h2>Listas</h2>
+   <main>
+      <seection class="listas"> 
+         <h2 id="listas">Listas</h2>
+<div>
    <h3>Principios do Instituto</h3>
+
       <ol class="retangulo">
           <div class="Respeito"><li>Respeito</li></div>
           <div class="Inclusão"><li>Inclusão</li></div>
@@ -25,8 +47,9 @@
           <div class="Coragem"><li>Coragem</li></div>
           <div class="Inovação"><li>Inovação</li></div>
       </ol>
-
-      <h2>Modalidades Treinadas</h2>
+</div>
+<div>
+    <h3>Modalidades Treinadas</h3>
   
       <ul>
         <li>
@@ -45,14 +68,39 @@
             Corridas de resistência
          </li>
          </ul>
+      </div>
+     
+      </seection>
+     
 
+       <section.class="ancoras">
          <h2>Âncoras</h2>
-         <h3>Âncoras para páginas externas</h3>
-         <a href="https://pt.wikipedia.org/wiki/Atletismo">Ir para a wikipedia sobre atletismo</a>
-         <a href="https://youtu.be/CaaGrb8l_7E">Video sobre atletismo
+
+        <div> <h3>Âncoras para páginas externas</h3>
+         <a href="https://pt.wikipedia.org/wiki/Atletismo" target="_blank">Ir para a wikipedia sobre atletismo</a><br>
+         <a href="https://youtu.be/CaaGrb8l_7E"target="_blank">Video sobre atletismo
          </a>
+         </div>
 
-         <h3>Âncoras para páginas internas</h3>
+        
+         <div> <h3>Âncoras para a MESMA página</h3>
+          <a href="#inicio">
+            <img src="./assets/arrow_upward_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="arrow_up">
+          </a><br>
+          <a href="#listas">Voltar para as listas</a>
+         </div>
+       </section.class> 
 
-</body>
+      <section.class="Imagens">
+          <h2>Imagens</h2>
+          <div> <h3>Imagens com links externos</h3>
+          <img src="https://cdn.awsli.com.br/1537/1537255/produto/207455772e952b07172.jpg" alt="Imagem de um disco">
+</div>
+         <div>  <h3>Imagens dentro da pasta de projetos</h3>
+          <img src="./assets/martelo.jfif" alt="Imagem de um peso de martelo"></div>
+        
+         </section.class> 
+   </main>
+
+ </body>
 </html>
